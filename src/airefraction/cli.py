@@ -13,7 +13,7 @@ def main():
                              'coefficients. Each row describes one eye.'
                              ' The header must be as follows: ' +
                              str(data.HEADER))
-    parser.add_argument('outfile', help='For saving the refractive error'
+    parser.add_argument('outfile', help='For saving the refractive error '
                                         'corrections.')
     args = parser.parse_args()
 
