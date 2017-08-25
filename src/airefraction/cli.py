@@ -28,7 +28,3 @@ def main():
 
     import pandas as pd
     pd.DataFrame(predictions).to_excel(args.outfile, index=False)
-
-
-if __name__ == "__main__":
-    main()
