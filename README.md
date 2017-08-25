@@ -30,14 +30,14 @@ usage: ai-refraction [-h] infile outfile
 Compute refractive error corrections.
 
 positional arguments:
-  infile      Excel file with pupil diameters and Zernikecoefficients. Each
+  infile      Excel file with pupil diameters and Zernike coefficients. Each
               row describes one eye. The header must be as follows: ('pd',
               'Z00', 'Z1-1', 'Z11', 'Z2-2', 'Z20', 'Z22', 'Z3-3', 'Z3-1',
               'Z31', 'Z33', 'Z4-4', 'Z4-2', 'Z40', 'Z42', 'Z44', 'Z5-5',
               'Z5-3', 'Z5-1', 'Z51', 'Z53', 'Z55', 'Z6-6', 'Z6-4', 'Z6-2',
               'Z60', 'Z62', 'Z64', 'Z66', 'Z7-7', 'Z7-5', 'Z7-3', 'Z7-1',
               'Z71', 'Z73', 'Z75', 'Z77')
-  outfile     For saving the refractive errorcorrections.
+  outfile     For saving the refractive error corrections.
 
 optional arguments:
   -h, --help  show this help message and exit
@@ -55,7 +55,7 @@ To check that everything works correctly on your system you can as well clone th
 ```
 git clone https://github.com/chleibig/airefraction.git
 ```
-Install it via
+Go to the folder `airefraction` that contains the setup.py file and install the package via: 
 ```
 pip install .
 ```

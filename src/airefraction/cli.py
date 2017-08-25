@@ -9,7 +9,7 @@ def main():
     description = 'Compute refractive error corrections.'
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument('infile',
-                        help='Excel file with pupil diameters and Zernike'
+                        help='Excel file with pupil diameters and Zernike '
                              'coefficients. Each row describes one eye.'
                              ' The header must be as follows: ' +
                              str(data.HEADER))
