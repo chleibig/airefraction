@@ -1,4 +1,7 @@
 # airefraction
+
+[![Build Status](https://travis-ci.com/chleibig/airefraction.svg?token=7TuEVgHqEpKEWMpU7yJL&branch=master)](https://travis-ci.com/chleibig/airefraction)
+
 Neural network based prescription of subjectively optimal refractive error corrections from Zernike coefficients.
 
 ## Quickstart
