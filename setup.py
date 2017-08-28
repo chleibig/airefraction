@@ -21,10 +21,11 @@ setup(
     packages=find_packages('src', exclude=[]),
     package_dir={'': 'src'},  # tell packages are under src
     install_requires=[
+        'numpy',
+        'scipy',
         'keras',
         'tensorflow',
         'h5py',
-        'numpy',
         'pandas',
         'xlrd',
         'openpyxl'

@@ -10,9 +10,9 @@ Neural network based prescription of subjectively optimal refractive error corre
 
 A convenient way to get `airefraction` running in an isolated environment, that is without affecting your system's python installation (if you are familiar with Python just go ahead with step 3, optionally in a virtual environment) is as follows:
 1. Get the [Anaconda Distribution](https://www.continuum.io/downloads) for **Python 3.6** and your operating system.
-2. Optionally create a conda environment `<name>` with `pip` installed into it:
+2. Optionally create a conda environment `<name>` with `pip`, `numpy` and `scipy` installed into it:
     ```
-    conda create -n <name> pip
+    conda create -n <name> pip numpy scipy
     ```
     Activate the environment by typing:
     ```
