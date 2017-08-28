@@ -18,7 +18,7 @@ A convenient way to get `airefraction` running in an isolated environment, that 
     ```
     source activate <name>
     ```
-3. Install the `airefraction` package:
+3. Make sure you have [git](https://git-scm.com/downloads) and install the `airefraction` package:
   ```
   pip install git+https://github.com/chleibig/airefraction.git
   ```
